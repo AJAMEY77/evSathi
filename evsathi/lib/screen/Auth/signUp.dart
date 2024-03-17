@@ -158,6 +158,7 @@ class _MyRegisterState extends State<signUp> {
                             builder: (context) => const Login(),
                           ),
                         );
+                        // Navigator.pop(context);
                       }
                     },
                     child: const Text(
