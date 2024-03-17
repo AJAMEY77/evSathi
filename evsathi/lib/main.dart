@@ -1,3 +1,7 @@
+// import 'package:evsathi/screens/booking_page.dart';
+import 'package:evsathi/screens/featurePage/featurePage.dart';
+import 'package:evsathi/screens/statusPage/status.dart';
+// import 'package:evsathi/screens/status.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,9 +20,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-
       debugShowCheckedModeBanner: false,
-      //home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: featurePage(),
     );
   }
 }
