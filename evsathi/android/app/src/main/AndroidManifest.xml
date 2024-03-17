@@ -3,6 +3,8 @@
         android:label="evsathi"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyDSHQPWbkenC4piyRxbWe5CdFpvR23rAZA"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -29,6 +31,11 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+            <meta-data android:name="com.phonepe.android.sdk.isUAT" android:value="true"/>
+            <meta-data android:name="com.phonepe.android.sdk.isSimulator" android:value="true"/>
+            <meta-data android:name="com.phonepe.android.sdk.MerchantId" android:value="PGTESTPAYUAT"/> 
+            <!-- <meta-data android:name="com.phonepe.android.sdk.AppId" android:value="appId"/> -->
+
     </application>
     <!-- Required to query activities that can process text, see:
          https://developer.android.com/training/package-visibility?hl=en and

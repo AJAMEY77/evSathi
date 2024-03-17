@@ -1,4 +1,7 @@
+import 'package:evsathi/screen/AdminPage/loginPage.dart';
 import 'package:evsathi/screen/Auth/login.dart';
+import 'package:evsathi/screen/googleMap/map.dart';
+import 'package:evsathi/screen/paymentPage/upi.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -26,9 +29,9 @@ class MyApp extends StatelessWidget {
         // ... other theme configurations
       ),
       themeMode: themeMode,
-      initialRoute: 'login',
+      initialRoute: 'loginPage',
       routes: {
-        'login': (context) => const Login(),
+        'loginPage': (context) => const LoginPage(),
       },
     );
   }
